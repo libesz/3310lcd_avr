@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{D1100916-62DA-4D80-A9B4-55A1E7CCEEB3}") = "3310lcd", "3310lcd\3310lcd.avrgccproj", "{5931C4B0-D8F4-43D1-A4D3-C3E1E303A287}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5931C4B0-D8F4-43D1-A4D3-C3E1E303A287}.Debug|AVR.ActiveCfg = Debug|AVR
+		{5931C4B0-D8F4-43D1-A4D3-C3E1E303A287}.Debug|AVR.Build.0 = Debug|AVR
+		{5931C4B0-D8F4-43D1-A4D3-C3E1E303A287}.Release|AVR.ActiveCfg = Release|AVR
+		{5931C4B0-D8F4-43D1-A4D3-C3E1E303A287}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

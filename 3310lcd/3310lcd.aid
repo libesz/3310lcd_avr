@@ -1,0 +1,35 @@
+<AID Version="2.0.12.0" Device="ATmega168">
+  <Options>
+    <Frequency>1,6E+07</Frequency>
+    <Package>PDIP</Package>
+    <PinSort>PinNumber</PinSort>
+    <CodeFileName>3310lcd_init.c</CodeFileName>
+    <HeaderFileName>3310lcd_init.h</HeaderFileName>
+    <AssumeDefaultState>True</AssumeDefaultState>
+    <WriteUnmodifiedBits>True</WriteUnmodifiedBits>
+    <UnusedPortPins>Input</UnusedPortPins>
+  </Options>
+  <Pin Pin="PD7" Function="PD7" />
+  <Pin Pin="PB0" Function="PB0" />
+  <Pin Pin="PD0" Function="RXD" />
+  <Pin Pin="PD1" Function="TXD" />
+  <BitField BitField="CS0" Value="0" />
+  <BitField BitField="TOIE0" Value="0" />
+  <BitField BitField="RXEN0" Value="1" />
+  <BitField BitField="TXEN0" Value="1" />
+  <BitField BitField="UMSEL0" Value="0" />
+  <BitField BitField="UBRR0" Value="25" />
+  <BitField BitField="RXCIE0" Value="0" />
+  <Bit Register="PORTB" Bit="PORTB0" Value="0" Pin="PB0" Function="PB0" />
+  <Bit Register="DDRB" Bit="DDB0" Value="1" Pin="PB0" Function="PB0" />
+  <Bit Register="PORTD" Bit="PORTD0" Value="0" Pin="PD0" Function="RXD" />
+  <Bit Register="PORTD" Bit="PORTD1" Value="0" Pin="PD1" Function="TXD" />
+  <Bit Register="PORTD" Bit="PORTD7" Value="1" Pin="PD7" Function="PD7" />
+  <Bit Register="DDRD" Bit="DDD0" Value="0" Pin="PD0" Function="RXD" />
+  <Bit Register="DDRD" Bit="DDD1" Value="1" Pin="PD1" Function="TXD" />
+  <Bit Register="DDRD" Bit="DDD7" Value="0" Pin="PD7" Function="PD7" />
+  <Item Class="Port" Type="Variable" Name="STATUSLED" Comment="" StartBit="0" NumBits="1" Pin="PB0" Function="PB0" />
+  <Item Class="Port" Type="Variable" Name="__RXD" Comment="Reserved for pin RXD" StartBit="0" NumBits="1" Pin="PD0" Function="RXD" />
+  <Item Class="Port" Type="Variable" Name="__TXD" Comment="Reserved for pin TXD" StartBit="1" NumBits="1" Pin="PD1" Function="TXD" />
+  <Item Class="Port" Type="Variable" Name="INPUT_SWITCH" Comment="" StartBit="7" NumBits="1" Pin="PD7" Function="PD7" />
+</AID>
